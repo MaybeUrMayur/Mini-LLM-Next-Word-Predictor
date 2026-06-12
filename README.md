@@ -43,3 +43,8 @@ Python 3.9+ is required.
 - **Attention Heads**: 8
 - **Vocabulary Size**: 8000
 - **Activation**: GELU
+
+## Known Limitations / Flaws
+
+- **Accuracy**: Because this model is extremely small (only ~6.3 million parameters) and trained for a very short time on a tiny dataset (Alice in Wonderland + a slice of WikiText-2), it does not have a deep understanding of English grammar.
+- **Repetition & Punctuation**: It frequently predicts common punctuation marks (like `,` or `.`) or generic words (`the`, `was`, `she`) instead of accurate contextual continuations. It is a proof-of-concept for how LLMs are trained, not a production-ready predictor!
