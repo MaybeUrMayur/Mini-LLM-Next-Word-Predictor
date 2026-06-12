@@ -1,6 +1,6 @@
 # Mini LLM Next-Word Predictor
 
-🚀 **Live Demo:** [https://mini-llm-next-word-predictor.onrender.com](https://mini-llm-next-word-predictor.onrender.com)
+**Live Demo:** [https://mini-llm-next-word-predictor.onrender.com](https://mini-llm-next-word-predictor.onrender.com)
 
 This is a complete, runnable project that trains a small next-word prediction language model (a mini LLM) on Simple English text, and provides a simple Gradio web front end for interactive predictions.
 
