@@ -61,4 +61,5 @@ iface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    iface.launch(share=False)
+    port = int(os.environ.get("PORT", 10000))
+    iface.launch(server_name="0.0.0.0", server_port=port, share=False)
